@@ -1,0 +1,23 @@
+<div class="theme-default">
+  <div class="theme-menu ">
+    <nav class="navbar  navbar-inverse">
+      <div class="navbar-header">
+        <a class="navbar-brand" [routerLink]="['./study']">Study</a>
+      </div>
+      <ul class="navbar-nav mr-auto">
+        <li [routerLinkActive]="['active']" class="nav-item">
+          <a [routerLink]="['./study']" routerLinkActive="myClass">Detail</a>
+        </li>
+        <li [routerLinkActive]="['active']" class="nav-item">
+          <a [routerLink]="['./create']" routerLinkActive="myClass">Create</a>
+        </li>
+        <!-- <li [routerLinkActive]="['active']" class="nav-item pull-right">
+          <a [routerLink]="['']" routerLinkActive="myClass">Sign Off</a>
+        </li> -->
+        <!-- <li [routerLinkActive]="['active']" class="nav-item"><a routerLink="plan" routerLinkActive="myClass">Plan</a></li> -->
+      </ul>
+    </nav>
+    <router-outlet></router-outlet>
+    <!-- <footer class="fixed-bottom"  style="background-color: #2874f0;padding: 10px;text-align: center;">@copyright...</footer> -->
+  </div>
+</div>

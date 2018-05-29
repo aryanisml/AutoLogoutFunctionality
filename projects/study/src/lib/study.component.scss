@@ -1,0 +1,27 @@
+.theme-menu {
+    .navbar.navbar-inverse {
+      background-color: #2874f0;
+      color: white;
+    }
+    .navbar-brand {
+      color: white !important;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+      color: white !important;
+    }
+    .navbar-nav {
+      flex-direction: row !important;
+    }
+    .navbar-nav>li {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .active {
+      // background-color: #454545;
+      border-bottom: 1px solid lightgreen;
+    }
+    .navbar {
+      min-height: 50px;
+    }
+  }
+  

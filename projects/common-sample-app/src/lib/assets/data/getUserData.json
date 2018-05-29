@@ -1,0 +1,9 @@
+{
+  "serviceResponse": {
+    "result": "error",
+    "error": {
+      "message": "User is not logged in.",
+      "errorCode": 5003
+    }
+  }
+}

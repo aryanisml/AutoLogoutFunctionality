@@ -1,0 +1,26 @@
+<!-- 
+<div [innerHTML]="content"></div> -->
+<!-- <p><strong>{{idleState}}</strong></p>
+<p *ngIf="lastPing"><small>Last keepalive ping <strong>{{lastPing}}</strong></small></p>
+<button (click)="reset()" *ngIf="timedOut">Restart</button> -->
+<!-- <button (click)="reset()" *ngIf="timeIsUp">Restart</button> -->
+<!-- 
+<div class="example-wrapper">
+  <kendo-popup [popupClass]="'content popup'" *ngIf="timeIsUp"> -->
+<!-- User-defined content -->
+<!-- Popup content.
+  </kendo-popup>
+</div> -->
+
+
+<!-- 
+<button color="primary" [disabled]="isWatching"
+ (click)="onStartWatching()">Start watching</button> -->
+<div>
+  <lib-common-sample-app (startWatch)="onStartWatch($event)"></lib-common-sample-app>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+<div kendoWindowContainer></div>
+<div class='k-overlay' *ngIf="toShowOverlay"></div>

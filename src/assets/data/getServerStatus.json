@@ -1,0 +1,18 @@
+{
+  "serviceResponse": {
+    "product": "eEuUWAPkiQdz/XBzEg00evkU6IB/oBz3mp1CrG5EJWKBJKkDkbzHlw==",
+    "result": "OK",
+    "serverStatus": {
+      "statusOK": true
+    },
+    "serverBuildDate": "Unknown",
+    "serverVersion": {
+      "content": 5.8,
+      "clientVersionEcho": 5.8,
+      "compatible": true
+    },
+    "loginRequired": true,
+    "serverBuildID": 580004,
+    "patch": "5.7.2"
+  }
+}
